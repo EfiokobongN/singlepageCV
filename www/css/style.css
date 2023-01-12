@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+#intro_section {
+    display: flex;
+    flex-direction: row;
+}
+#name {
+    color: #161b40;
+}
+#email {
+    color: #161b40;
+}
+.section {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+}
+#personal_image {
+    width: 60%;
+    height: 50%;
+    margin-right: -8rem !important;
+}
+img {
+    width: 60%;
+    height: 50%;
+    margin-top: 15px;
+}
+
+.infro span {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+h5 {
+    margin-top: -20px !important;
+}
+.infro {
+    margin-left: 5rem !important;
+    margin-right: 3rem;
+}
+.infro p,
+.infro h5 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.pra {
+    line-height: 1.5;
+}
+a {
+    color: blue;
+}
+.skills-info {
+    margin-right: 2rem !important;
+}
+.skills-info h2 {
+    text-transform: capitalize;
+}
+ol {
+    margin-left: -15px !important;
+}
+ul ol {
+    margin-left: -50px !important;
+}
+
+@media screen and (max-width: 412px){
+
+    #intro_section {
+    display: flex;
+    flex-direction: column;
+}
+.infro {
+    margin: 5px !important;
+    
+}
+ol {
+    margin: auto !important;
+    
+}
+ul ol {
+    margin: auto !important;
+}
+.skills-info {
+    margin: auto !important;
+}
+
+.infro p,
+.infro h5 {
+    font-size: 15px;
+    font-weight: 300;
+}
+#personal_image {
+    width: 100%;
+    height: 100%;
+    margin-right: -8rem !important;
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+}
